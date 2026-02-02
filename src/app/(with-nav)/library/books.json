@@ -1,0 +1,30 @@
+{
+    "books":[
+         {
+            "title": "The Four Agreements",
+            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1630664059i/6596.jpg",
+            "author": "Miguel Ruiz",
+            "rating": "",
+            "status": "reading",
+            "link": "https://www.goodreads.com/book/show/6596.The_Four_Agreements"
+        },
+         {
+            "title": "Can't Hurt Me",
+            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1536184191i/41721428.jpg",
+            "author": "David Goggins",
+            "rating": "",
+            "status": "reading",
+            "link": "https://www.goodreads.com/book/show/41721428-can-t-hurt-me"
+        },
+         {
+            "title": "The Alchemist",
+            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
+            "author": "Paulo Coelho",
+            "rating": "4/5⭐",
+            "status": "read",
+            "link": "https://www.goodreads.com/book/show/18144590-the-alchemist"
+        }
+       
+          
+    ]
+}
