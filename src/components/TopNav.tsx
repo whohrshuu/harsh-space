@@ -15,7 +15,7 @@ export default function TopNav(){
     return(
         <nav className="mx-auto max-w-5xl px-4 py-4 flex items-center justify-between text-center ">
             <Link prefetch href="/" className="font-display text-xl">
-            Anurag's Garden
+            Anurag's Garden👾
             </Link>
             <button
             className="md:hidden px-2 py-1 text-2xl cursor-pointer text-center"
