@@ -2,5 +2,5 @@
 
 Currently cooking up this portfolio.
 
-Projects and write-ups coming soon.
-Stay tuned.
+Projects and write-ups  soon.
+
