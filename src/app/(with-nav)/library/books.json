@@ -1,30 +1,52 @@
 {
     "books":[
          {
-            "title": "The Four Agreements",
-            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1630664059i/6596.jpg",
-            "author": "Miguel Ruiz",
-            "rating": "",
-            "status": "reading",
-            "link": "https://www.goodreads.com/book/show/6596.The_Four_Agreements"
+            "title": "Atomic Habits",
+            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg",
+            "author": "James Clear",
+            "rating": "5/5⭐",
+            "status": "read",
+            "link": "https://www.goodreads.com/book/show/40121378-atomic-habits"
         },
          {
-            "title": "Can't Hurt Me",
-            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1536184191i/41721428.jpg",
-            "author": "David Goggins",
+            "title": "Think Like a Monk",
+            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1600432716i/51942513.jpg",
+            "author": "Jay Shetty",
             "rating": "",
             "status": "reading",
-            "link": "https://www.goodreads.com/book/show/41721428-can-t-hurt-me"
+            "link": "https://www.goodreads.com/book/show/51942513-think-like-a-monk"
         },
-         {
-            "title": "The Alchemist",
-            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
-            "author": "Paulo Coelho",
+        {
+            "title": "The Subtle Art of Not Giving a F*ck",
+            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1465761302i/28257707.jpg",
+            "author": "Mark Manson",
             "rating": "4/5⭐",
             "status": "read",
-            "link": "https://www.goodreads.com/book/show/18144590-the-alchemist"
-        }
-       
-          
+            "link": "https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck"
+        },
+        {
+            "title": "Gunaho ke Devta",
+            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1679233236i/105818665.jpg",
+            "author": "Dharamveer Bharati",
+            "rating": "",
+            "status": "reading",
+            "link": "https://www.goodreads.com/book/show/105818665-gunaho-ke-devta"
+        },
+         {
+            "title": "21 lessons for the 21st century",
+            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1564577305i/38820046.jpg",
+            "author": "Yuval Noah Harari",
+            "rating": "4/5⭐",
+            "status": "read",
+            "link": "https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century"
+        },
+        {
+            "title": "Ret ki machhali",
+            "img": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1762678230i/155908518.jpg",
+            "author": "Morgan Housel",
+            "rating": "",
+            "status": "reading",
+            "link": "https://www.goodreads.com/book/show/155908518-ret-ki-machhali"
+        }  
     ]
 }

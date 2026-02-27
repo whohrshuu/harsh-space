@@ -16,13 +16,13 @@ export default function TopNav() {
 
   return (
     <nav className="border-b border-neutral-300/40">
-      <div className="mx-auto max-w-4xl px-6 py-4 flex items-center justify-between">
+      <div className="mx-auto max-w-3xl px-6 py-4 flex items-center justify-between">
         
         <Link
           href="/"
-          className="font-display text-xl tracking-tight"
+          className="font-display text-2xl tracking-tight"
         >
-          Anurag's Garden 👾
+          Anurag's Space 👾
         </Link>
 
         {/* Desktop Links */}
