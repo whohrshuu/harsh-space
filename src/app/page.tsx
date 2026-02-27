@@ -59,12 +59,12 @@ export default function Home() {
             </Link>
           </p>
 
-          <p className="pb-0.5 font-sans text-lg leading-relaxed">
+          {/* <p className="pb-0.5 font-sans text-lg leading-relaxed">
             <span className="text-muted">threads, path</span>
             <Link prefetch href="/network" className="text-foreground underline underline-offset-4 hover:opacity-80">
             /network
             </Link>
-          </p>
+          </p> */}
 
           <p className="pb-0.5 font-sans text-lg leading-relaxed">
             <span className="text-muted">experience, achievements</span>
