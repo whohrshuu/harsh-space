@@ -24,14 +24,23 @@ export function getAllWritings(): WritingMeta[] {
     const derivedTitle = firstline.replace(/^#\s+/, "").trim();
     const title = (data.title as string) || derivedTitle || filename.replace(/\.(md|mdx)$/i, "");
     const description = (data.description as string) || undefined;
-    const date = (data.date as string) || undefined;
+   let date: string | undefined = undefined;
+
+if (data.date) {
+  const parsed = new Date(data.date);
+  if (!isNaN(parsed.getTime())) {
+    date = parsed.toISOString().split("T")[0]; // Always YYYY-MM-DD
+  }
+}
     const slug = filename.replace(/\.(md|mdx)$/i, "");
     return { slug, title, description, date } satisfies WritingMeta;
   })
 
 
   return items.sort((a, b) => {
-    if (a.date && b.date) return a.date < b.date ? 1 : -1;
+   if (a.date && b.date) {
+  return new Date(b.date).getTime() - new Date(a.date).getTime();
+}
     if (a.date) return -1;
     if (b.date) return 1;
     return a.title.localeCompare(b.title);
@@ -54,6 +63,13 @@ export function getWritingBySlug(
   const derivedTitle = firstLine.replace(/^#\s+/, "").trim();
   const title = (data.title as string) || derivedTitle || slug;
   const description = (data.description as string) || undefined;
-  const date = (data.date as string) || undefined;
+  let date: string | undefined = undefined;
+
+if (data.date) {
+  const parsed = new Date(data.date);
+  if (!isNaN(parsed.getTime())) {
+    date = parsed.toISOString().split("T")[0];
+  }
+}
   return { content, meta: { slug, title, description, date } };
 }

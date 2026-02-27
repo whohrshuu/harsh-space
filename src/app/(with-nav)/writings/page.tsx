@@ -7,11 +7,13 @@ const PAGE_SIZE = 8;
 export const dynamic = "force-dynamic";
 
 function formatMonth(dateString: string): string {
-    const date = new Date(dateString + "-01T00:00:00Z");
-    if (isNaN(date.getTime())) {
-        return "Undated";
-    }
-    return date.toLocaleDateString("en-US", { month: "short", year: "2-digit" });
+    const date = new Date(dateString + "-01");
+    if (isNaN(date.getTime())) return "Undated";
+
+    return date.toLocaleDateString("en-US", {
+        month: "short",
+        year: "2-digit",
+    });
 }
 
 function groupWritingsByMonth(writings: WritingMeta[]) {
