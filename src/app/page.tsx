@@ -108,5 +108,5 @@ export default function Home() {
         <p className="mt-16 text-xs font-regular text-muted opacity-60">last rearranged 25th January 2026</p>
       </footer>
     </main>
-  );
+  )
 }
