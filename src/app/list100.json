@@ -1,5 +1,32 @@
 {
     "list100":[
-        {"text": "Buy a PS5", "status": "todo"}
+        {"text": "Buy a PS5", "status": "todo"},
+        {"text": "Learn to swim", "status": "todo"},
+        {"text": "Get my first Internship", "status": "todo"},
+        {"text": "Break my deadlift PR", "status": "done"},
+        {"text": "Own a House", "status": "todo"},
+        {"text": "Own a Bike", "status": "todo"},
+        {"text": "Own a Car", "status": "todo"},
+        {"text": "Get abs", "status": "todo"},
+        {"text": "Achieve under 10% body fat at 70+ kg body weight", "status": "todo"},
+        {"text": "Sell a tool, app, or software product", "status": "todo"},
+        {"text": "Learn origami", "status": "todo"},
+        {"text": "Go on first International trip", "status": "todo"},
+        {"text": "Visit Spiti Valley", "status": "todo"},
+        {"text": "Visit Kashmir Great lakes", "status": "todo"},
+        {"text": "Get married with her", "status": "todo"},
+        {"text": "Learn how to skii", "status": "todo"},
+        {"text": "Skiing in Gulmarg", "status": "todo"},
+        {"text": "Go Skydive", "status": "todo"},
+        {"text": "Setup my three screen Desk", "status": "todo"},
+        {"text": "Go on a trip alone", "status": "todo"},
+        {"text": "Play Forza Horizon on full gaming setup", "status": "todo"},
+        {"text": "Write my first book", "status": "todo"},
+        {"text": "Rent a apartment in Toronto", "status": "todo"},
+        {"text": "Learn Guitar", "status": "todo"},
+        {"text": "Visit Masai Mara", "status": "todo"},
+        {"text": "Scooba dive in Lakshadweep", "status": "todo"},
+        {"text": "Get my first running shoe", "status": "todo"}
+
     ]
 }
