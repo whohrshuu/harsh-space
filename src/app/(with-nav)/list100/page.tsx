@@ -17,7 +17,7 @@ export default function List100() {
                 Created on: feb 27, 2026
             </p>
             <p className="text-muted">
-             Note: I’m 22, and this is where my head is right now.
+             Note: I’m 21, and this is where my head is right now.
                 These are the things I want to build, chase, and finish.
                 The list will grow as I grow.
                 Nothing gets removed — only completed.
