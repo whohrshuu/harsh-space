@@ -16,7 +16,7 @@ export default function Home() {
 
       <header className="space-y-2">
         <h1 className="font-display text-5xl md:text-6xl tracking-tight">
-            Anurag's Space👾
+            Anurag's Space🚧
         </h1>
       </header>
 
