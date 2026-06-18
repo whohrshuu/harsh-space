@@ -2,9 +2,10 @@ import { getAllProjects } from "@/lib/projects"
 import ProjectList from "./ProjectList";
 
 export const metadata = {
-    title: "Projects | Anurag's Garden",
-    description: "Projects, experiments, and things I probably broke before they worked.",
+    title: "Projects | Harsh's Space",
+    description: "Projects, experiments and ideas I have built while learning and exploring technology.",
 }
+
 
 
 export default function ProjectIndex() {
@@ -17,8 +18,8 @@ export default function ProjectIndex() {
                     Projects
                 </h1>
                 <p className="text-muted">
-                    Projects, experiments, and things I probably broke before they worked.
-                </p>
+    A collection of projects showcasing my skills in software development, problem solving and modern web technologies.
+</p>
             </header>
             <ProjectList projects={projects} />
         </div>

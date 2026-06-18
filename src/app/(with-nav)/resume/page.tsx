@@ -1,81 +1,159 @@
 export default function ResumePage() {
     return (
-        <main className="mx-auto max-w-3xl px-4 py-16 space-y-8">
+        <main className="mx-auto max-w-3xl px-4 py-16 space-y-10">
 
             {/* Education */}
             <section className="space-y-6">
                 <h1 className="font-display text-3xl">Education</h1>
+
                 <div>
-                    <div className="flex items-baseline justify-between ">
+                    <div className="flex items-baseline justify-between">
                         <h2 className="font-display text-2xl">
                             Parul University
                         </h2>
-                        <span className="text-sm text-muted">2023 - Present</span>
+                        <span className="text-sm text-muted">2023 - 2027</span>
                     </div>
+
                     <h3 className="font-medium mt-1">
                         B.Tech in Computer Science and Engineering
                     </h3>
+
                     <ul className="list-disc pl-5 mt-2 space-y-1 text-foreground/90">
-                        <li>CGPA: 8.30</li>
-                        <li>
-                            Relavant Coursework : Data Structures ans Algorithms , Operating System,
-                            Database Management Systems, Computer Networks , OOP
-                        </li>
+                        <li>CGPA: 7.17</li>
                     </ul>
                 </div>
 
-                <div className="pt-8">
-                    <div className="flex items-baseline justify-between ">
+                <div>
+                    <div className="flex items-baseline justify-between">
                         <h2 className="font-display text-2xl">
-                            Stepping Stone Inter College
+                            RPS Public School, Dharuhera
                         </h2>
-                        <span className="text-sm text-muted">2023</span>
+                        <span className="text-sm text-muted">2021 - 2022</span>
                     </div>
-                    <h3 className="font-medium mt-1">Higher Secondary Education</h3>
-                    <ul className="list-disc pl-5 mt-2 space-y-1 text-foreground/90">
-                        <li>Percentage: 80.40%</li>
-                    </ul>
+
+                    <h3 className="font-medium mt-1">
+                        Class 12th
+                    </h3>
+                </div>
+
+                <div>
+                    <div className="flex items-baseline justify-between">
+                        <h2 className="font-display text-2xl">
+                            RPS Public School, Dharuhera
+                        </h2>
+                        <span className="text-sm text-muted">2019 - 2020</span>
+                    </div>
+
+                    <h3 className="font-medium mt-1">
+                        Class 10th
+                    </h3>
                 </div>
             </section>
+            
+{/* Experience */}
+<section className="space-y-6">
+    <h1 className="font-display text-3xl">Experience</h1>
+
+    <div>
+        <div className="flex items-baseline justify-between">
+            <h2 className="font-display text-2xl">
+                Decode Lab
+            </h2>
+            <span className="text-sm text-muted">
+                June 2026 – July 2026
+            </span>
+        </div>
+
+        <h3 className="font-medium mt-1">
+            Java Intern
+        </h3>
+
+        <ul className="list-disc pl-5 mt-2 space-y-1 text-foreground/90">
+            <li>Completed a one-month Java internship focused on core Java programming concepts.</li>
+            <li>Built console-based projects and mini games such as Number Guessing Game.</li>
+            <li>Strengthened understanding of Object-Oriented Programming, loops, arrays and problem-solving.</li>
+            <li>Gained hands-on experience in writing clean and structured Java code.</li>
+        </ul>
+    </div>
+</section>
 
             {/* Technical Skills */}
             <section className="space-y-6">
-                <h1 className="font-display text-4xl ">Technical Skills</h1>    
+                <h1 className="font-display text-3xl">Technical Skills</h1>
+
                 <ul className="space-y-3 text-foreground/90">
                     <li>
-                        <strong>Programming Language:</strong>C++, C, JavaScript
+                        <strong>Programming Languages:</strong> Java, Python
                     </li>
+
                     <li>
-                        <strong>Frontend:</strong>React, Next.js, Tailwind CSS
+                        <strong>Web Technologies:</strong> HTML, CSS
                     </li>
+
                     <li>
-                        <strong>Backend:</strong>Node.js, Express.js
+                        <strong>Database:</strong> MongoDB, MySQL
                     </li>
+
                     <li>
-                        <strong>Databases:</strong>MongoDB (Mongoose), MySQL, PostgreSQL
+                        <strong>Concepts:</strong> Data Structures & Algorithms, Object-Oriented Programming, Problem Solving
                     </li>
+
                     <li>
-                        <strong>Concepts:</strong> Data Structures and Algorithms, Object-Oriented Programming, RESTful API Development, Version Control (Git)
-                    </li>
-                    <li>
-                        <strong>System Design:</strong> Experience in designing scalable and efficient systems, including microservices architecture, load balancing, and database sharding.
+                        <strong>Tools:</strong> Git, GitHub
                     </li>
                 </ul>
             </section>
 
-            {/* Achievements */}
+           {/* Projects */}
+<section className="space-y-6">
+    <h1 className="font-display text-3xl">Projects</h1>
+
+    <ul className="list-disc pl-5 space-y-2 text-foreground/90">
+        <li>
+            <strong>Personal Portfolio Website</strong>
+            <br />
+            Built using Next.js, TypeScript and Tailwind CSS to showcase my projects, skills and development journey.
+        </li>
+
+        <li>
+            <strong>CleanTrack AI</strong>
+            <br />
+            An AI-powered cleanliness and waste management platform focused on reporting, monitoring and improving public cleanliness.
+        </li>
+
+        <li>
+            <strong>SignBridge – Assistive Sign-to-Speech</strong>
+            <br />
+            Built using Python, OpenCV, MediaPipe and computer vision techniques to convert sign language gestures into meaningful text and speech.
+        </li>
+    </ul>
+</section>
+
+            {/* Certifications */}
             <section className="space-y-6">
-                <h1 className="text-4xl font-display">Achievements</h1>
-                <ul className="list-disc pl-5 mt-2 space-y-1 text-foreground/90">
-                    <li>
-                        Qualified for National level - Smart India Hackathon (Top 45 teams at Vadodara edition).
-                    </li>
-                    <li>
-                        Silver Certificate - Smart Interviews (Perfect Score in DSA Assessment).
-                    </li>
+                <h1 className="font-display text-3xl">Certifications</h1>
+
+                <ul className="list-disc pl-5 text-foreground/90">
+                    <li>Dynamic Programming Camp – AlgoUniversity</li>
+                    <li>DevOps Meets AI – AWS Cloud Club</li>
+                    <li>UX Masterclass with Figma – Parul University</li>
+                    <li>Nestlé E-learning 2026 – Resilience</li>
+                </ul>
+            </section>
+
+            {/* Strengths */}
+            <section className="space-y-6">
+                <h1 className="font-display text-3xl">Strengths</h1>
+
+                <ul className="list-disc pl-5 text-foreground/90">
+                    <li>Fast Learner</li>
+                    <li>Problem Solving</li>
+                    <li>Adaptability</li>
+                    <li>Team Collaboration</li>
+                    <li>Creative Thinking</li>
                 </ul>
             </section>
 
         </main>
-    )
+    );
 }

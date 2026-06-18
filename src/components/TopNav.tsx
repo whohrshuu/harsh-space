@@ -4,11 +4,10 @@ import Link from "next/link";
 import { useState } from "react";
 
 const links = [
+  { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
-  { href: "/writings", label: "Writings" },
-  { href: "/library", label: "Library" },
+  { href: "/about", label: "About" },
   { href: "/resume", label: "Resume" },
-  { href: "/list100", label: "List 100" },
 ];
 
 export default function TopNav() {
@@ -18,14 +17,11 @@ export default function TopNav() {
     <nav className="border-b border-neutral-300/40">
       <div className="mx-auto max-w-3xl px-6 py-4 flex items-center justify-between">
         
-        <Link
-          href="/"
-          className="font-display text-2xl tracking-tight"
-        >
-          Anurag's Space 👾
+        <Link href="/" className="font-display text-2xl tracking-tight">
+          Harsh's Space 👾
         </Link>
 
-        {/* Desktop Links */}
+        {/* Desktop */}
         <div className="hidden md:flex items-center gap-6 text-sm">
           {links.map((l) => (
             <Link
@@ -38,7 +34,7 @@ export default function TopNav() {
           ))}
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile button */}
         <button
           className="md:hidden text-2xl"
           aria-label="Toggle menu"
@@ -48,10 +44,10 @@ export default function TopNav() {
         </button>
       </div>
 
-      {/* Mobile Dropdown */}
+      {/* Mobile menu */}
       {open && (
         <div className="md:hidden border-t border-neutral-300/40">
-          <div className="mx-auto max-w-4xl px-6 py-4 flex flex-col gap-4 text-sm">
+          <div className="mx-auto max-w-3xl px-6 py-4 flex flex-col gap-4 text-sm">
             {links.map((l) => (
               <Link
                 key={l.href}

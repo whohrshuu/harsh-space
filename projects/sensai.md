@@ -1,95 +1,69 @@
 ---
-title: Sensai – AI Career Coach
-description: A full stack AI-powered career coach built with Next.js, Neon DB, Prisma and Inngest.
+title: SignBridge – Assistive Sign-to-Speech
+description: An assistive AI-powered system that converts sign language gestures into speech, helping bridge communication gaps for deaf and speech-impaired individuals.
 category: project
-date: 2025-02-20
+date: 2025-09-15
 tags:
-  - nextjs
+  - python
   - ai
-  - full-stack
-  - prisma
-  - neon-db
-  - tailwind
-  - inngest
+  - machine-learning
+  - computer-vision
+  - accessibility
 links:
   - type: github
-    url: https://github.com/anuragg001/Sensai
+    url: https://github.com/whohrshuu/SignBridge-Assistive-Sign-to-Speech
 ---
 
-# Sensai – AI Career Coach
----
+# SignBridge – Assistive Sign-to-Speech
 
-## The Problem
-
-Most people don’t have a real strategy for their career.
-
-They update a resume.  
-Apply everywhere.  
-Hope something works.  
-Repeat.
-
-There’s no feedback loop. No data. No direction.
-
-That didn’t sit right with me.
+💻 **GitHub Repository:**  
+https://github.com/whohrshuu/SignBridge-Assistive-Sign-to-Speech
 
 ---
 
-## The Idea
+## Overview
 
-What if preparation was measurable?
+SignBridge is an assistive technology project designed to help deaf and speech-impaired individuals communicate more effectively.
 
-What if instead of guessing, you actually knew:
-
-- how strong your resume is  
-- how you perform in interviews  
-- what your market is paying  
-- where you stand in your industry  
-
-So I built **Sensai** — an AI-powered career coach that actually guides you.
+The system recognizes sign language gestures and converts them into understandable speech output, creating a bridge between sign language users and people unfamiliar with sign language.
 
 ---
 
-## What It Does
+## Features
 
-You log in and set your role + experience.
-
-From there:
-
-- It helps you generate **ATS-friendly resumes**.  
-- It runs **AI-powered mock interviews** with feedback.  
-- It shows **salary trends and industry insights**.  
-- It tracks your progress over time.  
-
-Everything is built around one goal — **real career improvement**.
+- Real-time sign recognition
+- Gesture-to-text conversion
+- Text-to-speech output
+- User-friendly interface
+- Accessibility-focused design
 
 ---
 
-## Under the Hood
+## Technologies Used
 
-Built like a proper SaaS-style full stack app:
-
-- **Next.js** (frontend + backend)
-- **Neon DB** (serverless PostgreSQL)
-- **Prisma** (ORM & schema management)
-- **Tailwind CSS + Shadcn UI** (clean UI)
-- **Inngest** (background workflows)
-- **AI APIs** (resume & interview intelligence)
-
-Authentication.  
-Database architecture.  
-Event-driven processing.  
-AI integration.
-
-Built to scale — not just to exist.
+- Python
+- Machine Learning
+- Computer Vision
+- OpenCV
+- AI Models
 
 ---
 
-## Current Status
+## What I Learned
 
-This is version one.
+- Computer Vision fundamentals
+- Gesture recognition systems
+- Machine Learning workflows
+- Accessibility-focused application design
+- Real-time data processing
 
-Still improving.  
-Still refining UX.  
-Still making the AI smarter.
+---
 
-But the foundation is strong.
+## Future Improvements
+
+- Support for larger sign language vocabularies
+- Improved recognition accuracy
+- Mobile application support
+- Multi-language speech output
+
+This project demonstrates how AI and computer vision can be used to create meaningful solutions that improve accessibility and communication.
